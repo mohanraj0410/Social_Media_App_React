@@ -36,7 +36,7 @@ const Login: React.FunctionComponent<ILoginProps> = () => {
     e.preventDefault();
     try {
       await googleSignIn();
-      navigate("/");
+      navigate("/home");
     } catch (error) {
       message.open({
         type: "error",
@@ -51,7 +51,7 @@ const Login: React.FunctionComponent<ILoginProps> = () => {
       try {
         // console.log("The user info is : ", userLogInInfo);
         await logIn(userLogInInfo.email, userLogInInfo.password);
-        navigate("/");
+        navigate("/home");
       } catch (error) {
         message.open({
           type: "error",

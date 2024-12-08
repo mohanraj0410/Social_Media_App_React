@@ -4,12 +4,13 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCBQJ3xHRGYI7m4fGd4TLhLrAxao9m0JFw",
-  authDomain: "instagram-c0e3f.firebaseapp.com",
-  projectId: "instagram-c0e3f",
-  storageBucket: "instagram-c0e3f.appspot.com",
-  messagingSenderId: "6026345784",
-  appId: "1:6026345784:web:0db0643114fa2d578cd5cd",
+  apiKey: "AIzaSyBSfotCS7KKom7Tgu1veGK0FMSr9y_jpXM",
+  authDomain: "socialmedia-app-a5add.firebaseapp.com",
+  projectId: "socialmedia-app-a5add",
+  storageBucket: "socialmedia-app-a5add.firebasestorage.app",
+  messagingSenderId: "264797620935",
+  appId: "1:264797620935:web:e7abfe37feaa35a7b94ce2",
+  measurementId: "G-Q81KB261K9"
 };
 
 // Initialize Firebase

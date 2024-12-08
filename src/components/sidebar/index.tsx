@@ -17,7 +17,7 @@ interface ISidebarProps {}
 const navItems = [
   {
     name: "Home",
-    link: "/",
+    link: "/home",
     icon: homeIcon,
   },
   {

@@ -47,7 +47,7 @@ const CreatePost: React.FunctionComponent<ICreatePostProps> = (props) => {
           type: "success",
           content: "Your post is successfully created!",
         });
-        navigate("/");
+        navigate("/home");
       } else {
         navigate("/login");
       }

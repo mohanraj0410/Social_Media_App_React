@@ -36,7 +36,7 @@ const SignUp: React.FunctionComponent<Props> = () => {
     e.preventDefault();
     try {
       await googleSignIn();
-      navigate("/");
+      navigate("/home");
     } catch (error) {
       message.open({
         type: "error",
@@ -51,7 +51,7 @@ const SignUp: React.FunctionComponent<Props> = () => {
       try {
         // console.log("The user info is:", userInfo);
         await signUp(userInfo.email, userInfo.password);
-        navigate("/");
+        navigate("/home");
       } catch (error) {
         message.open({
           type: "error",

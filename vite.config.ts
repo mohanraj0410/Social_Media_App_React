@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react()],
   
   // Adjust base for GitHub Pages deployment
-  base: "/Social_Media_App_React/login",  // Set the base path to the repository name
+  base: "/login",  // Set the base path to the repository name
 
   build: {
     chunkSizeWarningLimit: 1000, // Increase chunk size warning limit to 1 MB
